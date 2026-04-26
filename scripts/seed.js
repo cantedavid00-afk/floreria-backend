@@ -118,6 +118,7 @@ const PRODUCTOS_EJEMPLO = [
     disponible: true,
     esExtra: true,
   },
+];
 
 async function seed() {
   try {
