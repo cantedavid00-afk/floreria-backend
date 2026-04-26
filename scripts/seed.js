@@ -87,7 +87,7 @@ const PRODUCTOS_EJEMPLO = [
     descripcion: 'Surtido de 12 bombones Lindt premium.',
     precio: 120,
     categoria: 'extra',
-    imagenUrl: '',
+    imagenUrl: 'https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=600',
     disponible: true,
     esExtra: true,
   },
@@ -96,7 +96,7 @@ const PRODUCTOS_EJEMPLO = [
     descripcion: 'Globo metálico con mensaje personalizable.',
     precio: 60,
     categoria: 'extra',
-    imagenUrl: '',
+    imagenUrl: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600',
     disponible: true,
     esExtra: true,
   },
@@ -105,7 +105,7 @@ const PRODUCTOS_EJEMPLO = [
     descripcion: 'Tarjeta artesanal con sobre, escrita a mano con tu mensaje.',
     precio: 35,
     categoria: 'extra',
-    imagenUrl: '',
+    imagenUrl: 'https://images.unsplash.com/photo-1607344645866-009c320b63e0?w=600',
     disponible: true,
     esExtra: true,
   },
@@ -114,11 +114,10 @@ const PRODUCTOS_EJEMPLO = [
     descripcion: 'Oso de peluche suave, 30cm. El complemento perfecto para tu ramo.',
     precio: 150,
     categoria: 'extra',
-    imagenUrl: '',
+    imagenUrl: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600',
     disponible: true,
     esExtra: true,
   },
-];
 
 async function seed() {
   try {
